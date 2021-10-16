@@ -26,6 +26,7 @@ h1 {
 .main-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
 }
 .main-options {
@@ -38,12 +39,16 @@ h1 {
   height: 70vh;
   text-align: center;
   width: 25%;
+  max-width: 30rem;
   margin-right: 30px;
 }
-.main-content {
+#sketchpad-container {
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, .25);
-  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 48rem;
+  height: 48rem;
 }
 .option {
   margin: 20px auto;
@@ -190,6 +195,9 @@ h1 {
 #range:focus::-ms-fill-upper {
   background: #C86464;
 }
-.pixel {
-  border: 1px solid #000;
+.active {
+  background: #8A2387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFF;
 }
