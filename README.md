@@ -16,3 +16,5 @@ If you choose 'Rainbow' color button, it will fill every pixel on the pad with r
 - If...else condition
 - For loop
 - While loop
+
+[Live Demo](https://zacharytruong.github.io/etch-a-sketch/) ❤️
